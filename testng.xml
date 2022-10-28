@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="VerifyGetPet">
+        <classes>
+            <class name="api.test.petstore.endpoint.VerifyGetPet"/>
+        </classes>
+    </test>    <test name="VerifyPostPer">
+        <classes>
+            <class name="api.test.petstore.endpoint.VerifyPostPet"/>
+        </classes>
+    </test>    <test name="VerifyCreatingPet">
+        <classes>
+            <class name="api.test.petstore.endpoint.VerifyCreatingPet"/>
+        </classes>
+    </test>
+    <!-- Test -->
+</suite> <!-- Suite -->
